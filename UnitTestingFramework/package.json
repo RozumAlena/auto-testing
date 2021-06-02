@@ -1,0 +1,29 @@
+{
+  "name": "testing-calc",
+  "version": "1.0.0",
+  "description": "unit testing app Calculator with mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ./",
+    "coverage": "nyc npm run test"
+  },
+  "keywords": [
+    "calculator",
+    "testing",
+    "mocha"
+  ],
+  "author": "Rozum Elena",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.27.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
+    "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "reporter": "html"
+  }
+}
